@@ -2,10 +2,10 @@
 
 {% block crud %}
 
-<h2>Details about {{ snack.name }}</h2>
-<h3>Purchaser: {{ snack.purchaser }} </h3>
-<p>Description: {{ snack.description }}</p>
+<h2>{{ snack.name }}</h2>
+<h3>Backpacker: {{ snack.purchaser }} </h3>
+<p>Gear description: {{ snack.description }}</p>
 
-<a href="{% url 'snack_update' snack.pk %}">+ Update Snack</a>
-<a href="{% url 'snack_delete' snack.pk %}">+ Delete Snack</a>
+<a href="{% url 'snack_update' snack.pk %}">+ Update Gear Item</a>
+<a href="{% url 'snack_delete' snack.pk %}">+ Delete Gear Item</a>
 {% endblock crud %}
