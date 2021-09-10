@@ -8,6 +8,12 @@
 
 Gear List is written in Django/Python using TailwindCSS and Docker. This is a checklist/informational blog on gear that I recommend bringing on your backpacking trip. This is a helpful tool not only for me, but also to help you prepare for your own trips!
 
+Django Documentation - [Documentation](https://docs.djangoproject.com/en/3.2/)
+TailwindCSS Documentation - [Documentation](https://tailwindcss.com/docs)
+Django-Tailwind GitHub Repository - [GitHub](https://github.com/timonweb/django-tailwind)
+Django-Tailwind Documentation - [Documentation](https://django-tailwind.readthedocs.io/en/latest/index.html)
+Docker Documentation - [Documentation](https://docs.docker.com/)
+
 ## Change Log
 
 06-23-2021 - Initialized repo, Django setup, made first migration, templates, etc. Need to update tests and change snacks to gear. Version 1.0.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/c1c7696d4bf8fbeabdc9341a87571e0e123674ee)
@@ -22,7 +28,7 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-09-2021 2:53pm - Navigation Updated. Added about view, url, and template. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/bc6e92a8355d205688212d96061eaaf4cf7af80b)
 
-09-09-2021 - Django-Tailwind integration successful. Need to begin styling. Version 2.3.0 [Pull Request]()
+09-09-2021 - Django-Tailwind integration successful. Need to begin styling. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/e85b6977d9c417a55feec493673af6ba9f85119f)
 
 
 
