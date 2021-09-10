@@ -28,7 +28,12 @@ Docker Documentation - [Documentation](https://docs.docker.com/)
 
 09-09-2021 2:53pm - Navigation Updated. Added about view, url, and template. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/bc6e92a8355d205688212d96061eaaf4cf7af80b)
 
-09-09-2021 - Django-Tailwind integration successful. Need to begin styling. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/e85b6977d9c417a55feec493673af6ba9f85119f)
+09-09-2021 6:02pm - Django-Tailwind integration successful. Need to begin styling. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/e85b6977d9c417a55feec493673af6ba9f85119f)
+
+09-09-2021 6:09pm - Added resource links to overview in documentation. Added previous pull request link to documentation. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/e85b6977d9c417a55feec493673af6ba9f85119f)
+
+09-09-2021 6:20pm - Added previous pull request link to documentation. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/afe06479b408a719ef208906b89e7afb6b6998e2)
+
 
 
 
