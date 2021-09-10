@@ -1,18 +1,20 @@
-# Gear List
+# Gear List ⛺️ 🗻
 
 **Author**: Skyler Johnson
+
 **Repo**: [Link to GiHub Repository](https://github.com/SkylerJohnson102020/gear-list)
-**Version**: 1.0.0
+
+**Version**: 2.3.0
 
 ## Overview
 
 Gear List is written in Django/Python using TailwindCSS and Docker. This is a checklist/informational blog on gear that I recommend bringing on your backpacking trip. This is a helpful tool not only for me, but also to help you prepare for your own trips!
 
-Django Documentation - [Documentation](https://docs.djangoproject.com/en/3.2/)
-TailwindCSS Documentation - [Documentation](https://tailwindcss.com/docs)
-Django-Tailwind GitHub Repository - [GitHub](https://github.com/timonweb/django-tailwind)
-Django-Tailwind Documentation - [Documentation](https://django-tailwind.readthedocs.io/en/latest/index.html)
-Docker Documentation - [Documentation](https://docs.docker.com/)
+- Django Documentation - [Documentation](https://docs.djangoproject.com/en/3.2/)
+- TailwindCSS Documentation - [Documentation](https://tailwindcss.com/docs)
+- Django-Tailwind GitHub Repository - [GitHub](https://github.com/timonweb/django-tailwind)
+- Django-Tailwind Documentation - [Documentation](https://django-tailwind.readthedocs.io/en/latest/index.html)
+- Docker Documentation - [Documentation](https://docs.docker.com/)
 
 ## Change Log
 
@@ -34,6 +36,4 @@ Docker Documentation - [Documentation](https://docs.docker.com/)
 
 09-09-2021 6:20pm - Added previous pull request link to documentation. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/afe06479b408a719ef208906b89e7afb6b6998e2)
 
-
-
-
+09-09-2021 6:28pm - Edits to documentation. Version 2.3.0 [Pull Request]()
