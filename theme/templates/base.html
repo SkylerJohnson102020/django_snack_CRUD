@@ -1,19 +1,31 @@
 {% load static tailwind_tags %}
+{% load tailwind_tags %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <title>Django Tailwind</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		{% tailwind_css %}
-	</head>
+<head>
+    {% tailwind_css %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear List</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-3xl" >Gear List</h1>
+        <nav>
+            <a href="{% url 'snack_list' %}">My Gear List</a>
+            <a href="{% url 'snack_create' %}">Add a new item</a>
+            <a href="{% url 'about' %}">About Gear List</a>
 
-	<body class="bg-grey-lightest font-serif leading-normal tracking-normal">
-		<div class="container mx-auto">
-			<section class="flex items-center justify-center h-screen">
-				<h1 class="text-5xl">Django + Tailwind = ❤️</h1>
-			</section>
-		</div>
-	</body>
+        </nav>
+    </header>
+    <main>
+        {% block crud %}
+            <h2>If you can read this, you need to set a block in child template.</h2>
+        {% endblock crud %}
+
+    </main>
+    
+</body>
 </html>
