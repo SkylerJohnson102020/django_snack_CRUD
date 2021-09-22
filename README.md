@@ -42,4 +42,4 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-21-2021 7:29pm - Security info now secure including DEBUG, ALLOWED_HOSTS, and SECURITY_KEY. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d9560f46dbf635aa9af2d457ee76644e96a3ac08)
 
-09-21-2021 8:03pm - Moved templates into theme folder, need to get styling linked with browser_sync. Version 2.3.0 [Pull Request]()
+09-21-2021 8:03pm - Moved templates into theme folder, need to get styling linked with browser_sync. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/7237e629cc6ea6387c8fda67b76dd3f72729b743)
