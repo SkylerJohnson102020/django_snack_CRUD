@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block crud %}
+
+<h2>{{ gear.name }}</h2>
+<h3>Backpacker: {{ gear.purchaser }} </h3>
+<p>Gear description: {{ gear.description }}</p>
+
+<a href="{% url 'gear_update' gear.pk %}">+ Update Gear Item</a>
+<a href="{% url 'gear_delete' gear.pk %}">+ Delete Gear Item</a>
+{% endblock crud %}
