@@ -2,11 +2,11 @@
 
 {% block crud %}
 
-<h1>Delete Gear Item</h1>
+<h1>Delete {{ gear.name }}</h1>
 
 <form action="" method="POST">
   {% csrf_token %}
-  <p>Do you really want to delete "{{ gear.name }}"?</p>
+  <p>Are you sure you want to delete "{{ gear.name }}"?</p>
   <input type="submit" value="OK">
 </form>
 

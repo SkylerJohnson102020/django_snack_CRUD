@@ -3,8 +3,8 @@
 {% block crud %}
 <ul>
     {% for gear in object_list %}
-        <li>
-            <a href="{% url 'gear_detail' gear.pk %}">{{ gear.name }}</a>
+        <li class="py-2 text-xl hover:animate-pulse hover:text-blue-500">
+            <a href="{% url 'gear_detail' gear.pk %}">- {{ gear.name }}</a>
         </li>
     {% endfor %}
 </ul>
