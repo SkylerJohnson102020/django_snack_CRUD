@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block crud %}
+<ul>
+    {% for gear in object_list %}
+        <li>
+            <a href="{% url 'gear_detail' gear.pk %}">{{ gear.name }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock crud %}
