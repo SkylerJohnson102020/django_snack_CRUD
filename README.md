@@ -52,4 +52,3 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-22-2021 5:45pm - Started with simple styling of templates. Work in progress. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/3013debe26d10639f41298eb115157f17122cf47)
 
-09-22-2021 9:58pm - Started with simple styling of templates. Work in progress. Version 2.5.0 [Pull Request]()
