@@ -43,3 +43,9 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 09-21-2021 7:29pm - Security info now secure including DEBUG, ALLOWED_HOSTS, and SECURITY_KEY. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d9560f46dbf635aa9af2d457ee76644e96a3ac08)
 
 09-21-2021 8:03pm - Moved templates into theme folder, need to get styling linked with browser_sync. Version 2.3.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/7237e629cc6ea6387c8fda67b76dd3f72729b743)
+
+09-22-2021 4:03pm - Changed naming from snacks to gear. Encountering a server error. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/957bf4710bfdeed768f5bec4e64b49eec3ede06c)
+
+09-22-2021 4:03pm - Created a quarantine branch. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ea149d0afa722f095d6f241ff2f2b3699ca3ca80)
+
+09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. [Pull Request]()
