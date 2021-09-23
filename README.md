@@ -48,4 +48,4 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-22-2021 4:03pm - Created a quarantine branch. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ea149d0afa722f095d6f241ff2f2b3699ca3ca80)
 
-09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. [Pull Request]()
+09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d035726c88bcc1c3f8605af9f79cd78b2986930f)
