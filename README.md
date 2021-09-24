@@ -4,7 +4,7 @@
 
 **Repo**: [Link to GiHub Repository](https://github.com/SkylerJohnson102020/gear-list)
 
-**Version**: 2.4.0
+**Version**: 2.5.1
 
 ## Overview
 
@@ -73,4 +73,7 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d035726c88bcc1c3f8605af9f79cd78b2986930f)
 
+09-22-2021 5:45pm - Started with simple styling of templates. Work in progress. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/3013debe26d10639f41298eb115157f17122cf47)
+
 09-23-2021 8:23pm - Updated documentation with user stories and primary feature tasks. Version 2.4.0 [Pull Request]()
+

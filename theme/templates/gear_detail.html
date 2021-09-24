@@ -1,11 +1,13 @@
 {% extends 'base.html' %}
 
 {% block crud %}
+<div class="p-2">
+    <h2 class="text-3xl p-4">{{ gear.name }}</h2>
+    <p class="p-4">{{ gear.description }}</p>
+</div>
 
-<h2>{{ gear.name }}</h2>
-<h3>Backpacker: {{ gear.purchaser }} </h3>
-<p>Gear description: {{ gear.description }}</p>
-
-<a href="{% url 'gear_update' gear.pk %}">+ Update Gear Item</a>
-<a href="{% url 'gear_delete' gear.pk %}">+ Delete Gear Item</a>
+<div class="text-center py-6">
+    <a class="px-3 py-2 mx-3 bg-blue-400 text-white rounded-sm hover:bg-blue-600 hover:animate-pulse hover:" href="{% url 'gear_update' gear.pk %}">Update</a>
+    <a class="px-3 py-2 mx-3 bg-blue-400 text-white rounded-sm hover:bg-blue-600 hover:animate-pulse hover:" href="{% url 'gear_delete' gear.pk %}">Delete</a>
+</div>
 {% endblock crud %}
