@@ -4,7 +4,7 @@
 
 **Repo**: [Link to GiHub Repository](https://github.com/SkylerJohnson102020/gear-list)
 
-**Version**: 2.3.0
+**Version**: 2.4.0
 
 ## Overview
 
@@ -15,6 +15,29 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 - Django-Tailwind GitHub Repository - [GitHub](https://github.com/timonweb/django-tailwind)
 - Django-Tailwind Documentation - [Documentation](https://django-tailwind.readthedocs.io/en/latest/index.html)
 - Docker Documentation - [Documentation](https://docs.docker.com/)
+
+## User Stories
+
+1. I want the ability to keep notes or a blog about my hiking gear. [X]
+
+2. I want the ability to login and save information on a database. []
+
+3. I want the ability to see other user reviews and gear information.[]
+
+4. I want the ability to rate my gear and be able to see ratings of other user gear.[]
+
+5. I want the ability to keep a quick list that acts as a checklist to see on my phone when I am packing my gear for a trip. I want the ability to check off my items as I go. []
+
+## Primary Feature Tasks
+
+[X] Documentation  
+[X] CRUD  
+[X] Migrate Django naming  
+[X] Django-Tailwind Integration  
+[] Styling  
+[] Login/Logout  
+[] Database migration  
+[] Docker
 
 ## Change Log
 
@@ -48,4 +71,6 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-22-2021 4:03pm - Created a quarantine branch. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ea149d0afa722f095d6f241ff2f2b3699ca3ca80)
 
-09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d035726c88bcc1c3f8605af9f79cd78b2986930f)
+09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d035726c88bcc1c3f8605af9f79cd78b2986930f)
+
+09-23-2021 8:23pm - Updated documentation with user stories and primary feature tasks. Version 2.4.0 [Pull Request]()
