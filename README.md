@@ -8,7 +8,9 @@
 
 ## Overview
 
-Gear List is written in Django/Python using TailwindCSS and Docker. This is a checklist/informational blog on gear that I recommend bringing on your backpacking trip. This is a helpful tool not only for me, but also to help you prepare for your own trips!
+Gear List is written in Django/Python using TailwindCSS, ElephantSQL, and Docker. 
+
+Gear List is an informational blog for users to store information, ratings, checklists, and other helpful information about backpacking gear from personal experience with the item. It's always great talking shop about gear when you're on a backpacking trip, but it's much more useful to know these tips and recommendations BEFORE going into the wilderness. Gear List is here to help with recommendations from users, ratings on gear items, and even a customizable checklist for the user to use while packing to ensure no item is left behind. (We've all been there.) This is a helpful tool to help you prepare for your next trip!
 
 - Django Documentation - [Documentation](https://docs.djangoproject.com/en/3.2/)
 - TailwindCSS Documentation - [Documentation](https://tailwindcss.com/docs)
@@ -75,5 +77,8 @@ Gear List is written in Django/Python using TailwindCSS and Docker. This is a ch
 
 09-22-2021 5:45pm - Started with simple styling of templates. Work in progress. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/3013debe26d10639f41298eb115157f17122cf47)
 
-09-23-2021 8:23pm - Updated documentation with user stories and primary feature tasks. Version 2.4.0 [Pull Request]()
+09-23-2021 8:23pm - Updated documentation with user stories and primary feature tasks. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/79c869200eb304cf7014ebb7a8f2efaff305a822)
+
+09-23-2021 8:23pm - More infomation in Overview of documentation. Updated About page and did some very light styling. Light styling to the navigation bar as well. Version 2.5.1 [Pull Request]()
+
 
