@@ -81,4 +81,4 @@ Gear List is an informational blog for users to store information, ratings, chec
 
 09-23-2021 8:23pm - More infomation in Overview of documentation. Updated About page and did some very light styling. Light styling to the navigation bar as well. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/dcb35d500732bb03cd29422360dce0b04681475e)
 
-09-28-2021 2:pm - Login now added and wired up. Need to add to nav bar and change views. Version 2.5.1 [Pull Request]()
+09-28-2021 2:pm - Login now added and wired up. Need to add to nav bar and change views. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ac5c16e610b4c72dc71f92c66adfbdbbf07174d2)
