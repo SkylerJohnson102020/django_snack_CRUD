@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'gears',
     'tailwind',
     'theme',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +137,5 @@ INTERNAL_IPS = [
 ]
 
 LOGIN_REDIRECT_URL = 'gear_list'
+LOGOUT_REDIRECT_URL = 'login'
+
