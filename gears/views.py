@@ -28,3 +28,4 @@ class GearDeleteView(DeleteView):
 class AboutView(TemplateView):
     model = Gear
     template_name = 'about.html'
+
