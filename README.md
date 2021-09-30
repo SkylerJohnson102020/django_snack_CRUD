@@ -4,7 +4,7 @@
 
 **Repo**: [Link to GiHub Repository](https://github.com/SkylerJohnson102020/gear-list)
 
-**Version**: 2.11.1
+**Version**: 2.12.1
 
 ## Overview
 
@@ -37,7 +37,7 @@ Gear List is an informational blog for users to store information, ratings, chec
 [X] Migrate Django naming  
 [X] Django-Tailwind Integration  
 [] Styling  
-[] Login/Logout  
+[X] Login/Logout  
 [] Database migration  
 [] Docker
 
@@ -86,4 +86,6 @@ Gear List is an informational blog for users to store information, ratings, chec
 09-29-2021 6:51pm - Added auth to base.html. Username is showing in nav bar. Need to add logout and sign up. Version 2.10.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/54bd7259ed5ec56a0104cbb183342cca21b971cb)
 
 09-30-2021 1:47pm - Login and sign up pages added. Added accounts app. Redirects working properly. Nav bar fixed with auth. Need to add auth to list view. Version 2.11.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/966e36c4c00a02ca279de2adbd5efef4719c4775)
+
+09-30-2021 2:50pm - Static files wired and configured. Tweaked About page. Need to work on templates and permissions. Version 2.12.1 [Pull Request]()
 
