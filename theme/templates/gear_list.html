@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block crud %}
+{% if user.is_authenticated %}
 <ul>
     {% for gear in object_list %}
         <li class="py-2 text-xl hover:animate-pulse hover:text-blue-500">
@@ -8,4 +9,5 @@
         </li>
     {% endfor %}
 </ul>
+{% endif %}
 {% endblock crud %}
