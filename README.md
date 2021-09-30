@@ -73,12 +73,15 @@ Gear List is an informational blog for users to store information, ratings, chec
 
 09-22-2021 4:03pm - Created a quarantine branch. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ea149d0afa722f095d6f241ff2f2b3699ca3ca80)
 
-09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. Version 2.4.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d035726c88bcc1c3f8605af9f79cd78b2986930f)
+09-22-2021 5:45pm - Found error, Gear/Gears name change successful. Keeping QUARANTINE branch as a precaution. Merging into main. Will be working with some foundational styling. Will be migrating to ElephantSQL and deploying using Docker and Heroku. Version 2.5.0 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/d035726c88bcc1c3f8605af9f79cd78b2986930f)
 
-09-22-2021 5:45pm - Started with simple styling of templates. Work in progress. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/3013debe26d10639f41298eb115157f17122cf47)
+09-22-2021 5:45pm - Started with simple styling of templates. Work in progress. Version 2.6.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/3013debe26d10639f41298eb115157f17122cf47)
 
-09-23-2021 8:23pm - Updated documentation with user stories and primary feature tasks. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/79c869200eb304cf7014ebb7a8f2efaff305a822)
+09-23-2021 8:23pm - Updated documentation with user stories and primary feature tasks. Version 2.7.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/79c869200eb304cf7014ebb7a8f2efaff305a822)
 
-09-23-2021 8:23pm - More infomation in Overview of documentation. Updated About page and did some very light styling. Light styling to the navigation bar as well. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/dcb35d500732bb03cd29422360dce0b04681475e)
+09-23-2021 8:23pm - More infomation in Overview of documentation. Updated About page and did some very light styling. Light styling to the navigation bar as well. Version 2.8.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/dcb35d500732bb03cd29422360dce0b04681475e)
 
-09-28-2021 2:pm - Login now added and wired up. Need to add to nav bar and change views. Version 2.5.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ac5c16e610b4c72dc71f92c66adfbdbbf07174d2)
+09-28-2021 2:35pm - Login now added and wired up. Need to add to nav bar and change views. Version 2.9.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/ac5c16e610b4c72dc71f92c66adfbdbbf07174d2)
+
+09-29-2021 6:51pm - Added auth to base.html. Username is showing in nav bar. Need to add logout and sign up. Version 2.10.1 [Pull Request]()
+

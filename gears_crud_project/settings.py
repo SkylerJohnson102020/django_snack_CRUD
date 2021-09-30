@@ -135,4 +135,4 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-LOGIN_REDIRECT_URL = 'theme/templates/base'
+LOGIN_REDIRECT_URL = 'gear_list'

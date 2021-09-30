@@ -13,11 +13,16 @@
 <body>
     <header class="flex bg-gray-400 justify-evenly">
         <h1 class="text-8xl" >Gear List</h1>
+        {% if user.is_authenticated %}
+            <p class="flex items-center justify-evenly">Welcome {{ user.username }}</p>
+        {% else %}
+            <p>Please login or create an account.</p>
+        {% endif %}
         <nav class="flex items-center justify-evenly w-96">
-            <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'gear_list' %}">My Gear List</a>
-            <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'gear_create' %}">Add a new item</a>
-            <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'about' %}">About</a>
+                <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'gear_list' %}">My Gear List</a>
+                <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'gear_create' %}">Add a new item</a>
 
+            <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'about' %}">About</a>
         </nav>
     </header>
     <main>
