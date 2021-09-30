@@ -85,5 +85,5 @@ Gear List is an informational blog for users to store information, ratings, chec
 
 09-29-2021 6:51pm - Added auth to base.html. Username is showing in nav bar. Need to add logout and sign up. Version 2.10.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/54bd7259ed5ec56a0104cbb183342cca21b971cb)
 
-09-30-2021 6:51pm - Login and sign up pages added. Added accounts app. Redirects working properly. Nav bar fixed with auth. Need to add auth to list view. Version 2.11.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/966e36c4c00a02ca279de2adbd5efef4719c4775)
+09-30-2021 1:47pm - Login and sign up pages added. Added accounts app. Redirects working properly. Nav bar fixed with auth. Need to add auth to list view. Version 2.11.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/966e36c4c00a02ca279de2adbd5efef4719c4775)
 
