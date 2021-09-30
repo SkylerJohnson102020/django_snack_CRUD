@@ -4,7 +4,7 @@
 
 **Repo**: [Link to GiHub Repository](https://github.com/SkylerJohnson102020/gear-list)
 
-**Version**: 2.12.1
+**Version**: 2.13.1
 
 ## Overview
 
@@ -88,4 +88,6 @@ Gear List is an informational blog for users to store information, ratings, chec
 09-30-2021 1:47pm - Login and sign up pages added. Added accounts app. Redirects working properly. Nav bar fixed with auth. Need to add auth to list view. Version 2.11.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/966e36c4c00a02ca279de2adbd5efef4719c4775)
 
 09-30-2021 2:50pm - Static files wired and configured. Tweaked About page. Need to work on templates and permissions. Version 2.12.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/e0fd903e171bdbb6bd3aaa45e1bb4b75e3a89af1)
+
+09-30-2021 2:50pm - Added purchaser to detail view. Need to work on model to add more fields. Next will work on template flow. Version 2.13.1 [Pull Request]()
 
