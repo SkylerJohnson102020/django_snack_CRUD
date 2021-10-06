@@ -13,24 +13,24 @@
 <body>
     <header class="flex bg-gray-400 justify-evenly">
         <h1 class="text-8xl" >Gear List</h1>
+        <nav class="flex items-center justify-between w-max">
         {% if user.is_authenticated %}
-            <p class="flex items-center justify-evenly">Welcome {{ user.username }}</p>
-            <a  class="flex items-center justify-evenly" href="{% url 'logout' %}">Log out</a>
+            <p class="p-2">Welcome {{ user.username }}</p>
+            <a class="hover:animate-pulse hover:text-blue-500 p-2" href="{% url 'gear_list' %}">My Gear List</a>
+            <a class="hover:animate-pulse hover:text-blue-500 p-2" href="{% url 'gear_create' %}">Add a new item</a>
+            <a class="p-2" href="{% url 'logout' %}">Log out</a>
         {% else %}
-            <!-- <p class="flex items-center justify-evenly">Please login or sign up.</p> -->
-            <a  class="flex items-center justify-evenly" href="{% url 'login' %}">Log in</a>
-            <a  class="flex items-center justify-evenly" href="{% url 'signup' %}">Sign Up</a>
-
+            <a class="p-2" href="{% url 'login' %}">Log in</a>
+            <a class="p-2" href="{% url 'signup' %}">Sign Up</a>
         {% endif %}
-        <nav class="flex items-center justify-evenly w-96">
-        {% if user.is_authenticated %}
-                <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'gear_list' %}">My Gear List</a>
-                <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'gear_create' %}">Add a new item</a>
-        {% endif %}
-            <a class="hover:animate-pulse hover:text-blue-500" href="{% url 'about' %}">About</a>
+            <a class="hover:animate-pulse hover:text-blue-500 p-2" href="{% url 'about' %}">About</a>
         </nav>
     </header>
     <main>
+        {% if user.is_authenticated %}
+        {% else %}
+            <h1 class="text-3xl text-center p-20">Be prepared for your next outdoor adventure!</h1>
+        {% endif %}
         {% block crud %}
             <h2>If you can read this, you need to set a block in child template.</h2>
         {% endblock crud %}

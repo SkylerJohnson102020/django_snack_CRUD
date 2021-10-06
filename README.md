@@ -91,3 +91,4 @@ Gear List is an informational blog for users to store information, ratings, chec
 
 09-30-2021 2:50pm - Added purchaser to detail view. Need to work on model to add more fields. Next will work on template flow. Version 2.13.1 [Pull Request](https://github.com/SkylerJohnson102020/gear-list/commit/c0f714169bd385ed1e2dc63bd8c7013df82143ac)
 
+10-05-2021 6:43pm - Fixed nav bar in base.html. Need to continue work with template flow. Version 2.14.1 [Pull Request]()
